@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 , h2{
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bonus, .add, .wages{
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add button{
+    width: 30px;
+    height: 30px;
+}
+

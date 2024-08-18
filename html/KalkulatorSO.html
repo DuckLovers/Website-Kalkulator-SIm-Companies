@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimCompaniesCalculator by Aidhil</title>
+    <link rel="stylesheet" href="../css/KalkulatorSO.css">
+</head>
+<body>
+    <h1>Sim Companies Calculator by Aidhil</h1>
+    <h2>Kalkulator SO</h2>
+    <div class="bonus">
+        Bonus
+        <input type="number" id="bonus" step="0.0001">
+        %
+    </div>
+    <div class="wages">
+        Wages
+        <input type="number" id="wages">
+    </div>
+    <div class="add">
+        Add Item 
+        <button onclick="addItem()">+</button>
+    </div>
+    <div id="items"></div>
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <div class="output">
+        Bonus Item per Quality : <span id="output_bonus"></span><br>
+        Price With Quality per Item : <span id="output_price"></span> <br>
+        Total : <span id="output_total"></span>
+    </div>
+
+    <script src="../js/KalkulatorSO.js"></script>
+</body>
+</html>
